@@ -18,10 +18,10 @@ function getQuote() {
 }
 
 pic.addEventListener('click', getQuote)
-
+/* 
 $(document).ready(function () {
 
-    $('xdiv').hover(
+    $('div').hover(
     function () {
         $(this).stop().fadeOut(function () {
             var $temp = $(this).attr('src');
@@ -42,4 +42,4 @@ $(document).ready(function () {
         $(this).fadeIn();
 
     });
-});
+}); */
